@@ -1,0 +1,644 @@
+* {
+  margin: 0 auto;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+#content {
+  height: 100%;
+}
+
+/* ---------- Header ---------- */
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: 75px;
+}
+
+.topnav {
+  background-color: #111617;
+  overflow: hidden;
+  width: 100%;
+}
+
+.topnav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.6s;
+}
+
+.topnav a:hover {
+  background-color: #2e3639;
+  color: #fff;
+}
+
+.topnav #nav-logo {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  float: left;
+  padding-top: 14px;
+}
+
+#logo {
+  height: 60%;
+}
+
+#nav-logo a:hover {
+  background-color: transparent;
+}
+
+.topnav .side-menu-wrapper {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  float: left;
+  padding-top: 26px;
+}
+
+.topnav .side-menu-wrapper .menu {
+  padding: 26px 10px;
+}
+
+hr,
+.menu-open,
+.menu-close {
+  display: none;
+}
+
+/* ---------- Uno ---------- */
+#uno {
+	background-image: url("../img/programa.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+  width: 100%;
+  min-height: 100%;
+}
+
+div #uno:after {
+	content: "";
+  display: table;
+  clear: both;
+}
+
+div #uno #uno1 {
+	width: 50%;
+  float: left;
+  padding-top: 5%;
+}
+
+div #uno #uno1 .margen {
+	width: 80%;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+div #uno #uno1 .margen #logo {
+	width: 60%;
+	height: auto;
+	margin-bottom: 160px;
+}
+
+div #uno #uno1 .margen #texto1 {
+	color: #fff;
+	font-size: 26px;
+}
+
+div #uno #uno1 .margen #texto2 {
+	color: #fff;
+	font-size: 38px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+div #uno #uno1 .margen #texto2 #mxn {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+div #uno #uno1 .margen .texto3 {
+	color: #fff;
+	font-size: 18px;
+}
+
+div #uno #uno2 {
+	width: 50%;
+	float: right;
+  padding-top: 6%;
+}
+
+div #uno #uno2 .margen {
+  width: 80%;
+  padding-top: 50px;
+}
+
+/* ---------- Dos ---------- */
+div #dos {
+  background-color: #eff6f8;
+  padding: 40px 0px;
+}
+
+div #dos h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#dos #dos-content {
+  display: flex;
+  width: 100%;
+}
+
+#dos #dos-content .dos-col1 {
+  width: 50%;
+  display: flex;
+}
+
+#dos #dos-col2 {
+  width: 100%;
+  display: flex;
+}
+
+div #dos img {
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div #dos .texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div #dos .texto .texto-ben1 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+div #dos #clh-content {
+  width: 60%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+div #dos #clh-content .responsive {
+  float: left;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+
+div #dos #clh-content .desc {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+div #dos #clh-content .desc p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #292929;
+  padding-bottom: 5px;
+}
+
+div #dos #clh-content #fin {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bolder;  
+}
+
+div #dos #clh-content #fin span {
+  color: #ff670a;
+}
+
+/* ---------- Tres ---------- */
+div #tres {
+  color: #fff;
+  background-color: #2e3639;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+div #tres h2 {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+div #tres #tres-cont1 {
+  width: 70%;
+}
+
+div #tres #tres-cont1 #tres-cont2 {
+  width: 80%;
+}
+
+div #tres #tres-cont1 #tres-cont2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres1 {
+  width: 50%;
+  float: left;
+  padding-top: 30px;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres1 p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres1 #tres1-pre {
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres1 #tres1-fin {
+  font-size: 12px;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres2 {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 70px;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres2 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 15px;
+  background-color: #ff670a;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres2 a:hover {
+  background-color: #e65100;
+  transition: 0.6s;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres3 {
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+div #tres #tres-cont1 #tres-cont2 #tres3 span {
+  font-weight: bold;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #111617;
+}
+
+footer #footer-logo {
+  width: 50%;
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+footer #footer-logo img {
+  width: auto;
+  height: 150px;
+}
+
+footer #footer-uno {
+  width: 25%;
+  float: left;
+  display: block;
+  text-align: center;
+  padding-top: 35px;
+}
+
+footer #footer-uno li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+footer #footer-uno #f1 {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 2px 42px;
+  color: #fff;
+  background-color: #1a2122;
+}
+
+footer #footer-uno #f1:hover {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 2px 42px;
+  color: #ff670a;
+  background-color: #111617;
+  transition: 0.3s;
+}
+
+footer #footer-uno #f2 {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 2px 38px;
+  color: #fff;
+  background-color: #1a2122;
+}
+
+footer #footer-uno #f2:hover {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 2px 42px;
+  color: #ff670a;
+  background-color: #111617;
+  transition: 0.3s;
+}
+
+footer #footer-uno #f3 {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 2px 42px;
+  color: #fff;
+  background-color: #1a2122;
+}
+
+footer #footer-uno #f3:hover {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 2px 42px;
+  color: #ff670a;
+  background-color: #111617;
+  transition: 0.3s;
+}
+
+footer  #footer-dos {
+  width: 25%;
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+footer  #footer-dos li {
+  list-style: none;
+}
+
+footer #footer-dos i {
+  color: #949494;
+  padding-top: 18px;
+}
+
+.corte {
+  clear: both;
+}
+
+/* ---------- Responsive ---------- */
+@media screen and (max-width: 767px) {
+/* ---------- Header ---------- */
+  nav {
+    height: auto;
+  }
+
+  .topnav #nav-logo {
+    float: none;
+  }
+
+  .topnav a {
+    color: #fff;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+
+  .topnav .side-menu-wrapper { /* style menu wrapper */
+    top: 0;
+    position: fixed; /* Fixed position */
+    box-sizing: border-box;
+    padding: 40px 75% 0 0px;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    transition: 0.6s; /* CSS transition speed */
+  }
+
+  .topnav .side-menu-wrapper .menu {
+    border-right: 0px #9b9b9b solid;
+    padding: 0px;
+  }
+
+  .side-menu u-wrapper > ul { /* css ul list style */
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto; /* enable scroll for menu items */
+    height: 95%;
+  }
+
+  .side-menu-wrapper > ul > li > a { /* links */
+    display: block;
+    border-bottom: 1px solid #131313;
+    padding: 6px 4px 6px 4px;
+    color: #989898;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .side-menu-wrapper > a.menu-close { /* close button */
+    display: block;
+    margin: -26px 0px -10px 0px;
+    padding: 8px 0px 4px 40px;
+    color: #fff;    
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  .menu-overlay { /* overlay */
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  hr {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .menu-open {
+    display: block;
+    float: right;
+    margin: 12px 12px 0px 0px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+
+  /* ---------- Uno ---------- */
+  div #uno #uno1 {
+    width: 100%;
+  }
+
+  div #uno #uno1 .margen {
+    width: 75%;
+    padding: 0px;
+  }
+
+  div #uno #uno1 .margen #logo {
+    margin-bottom: 25px;
+  }
+
+  div #uno #uno2 {
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  div #uno #uno2 .margen {
+    width: 75%;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+
+  /* ---------- Dos ---------- */
+  #dos #dos-content {
+    display: block;
+    width: 100%;
+  }
+
+  #dos #dos-content .dos-col1 {
+    width: 75%;
+    text-align: center;
+  }
+
+  #dos #dos-col2 {
+    width: 75%;
+    text-align: center;
+  }
+
+  div #dos img {
+    width: 95px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  div #dos .texto {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+  }
+
+  div #dos .texto .texto-ben1 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+  div #dos #clh-content {
+    width: 75%;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  div #dos #clh-content .responsive {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+  }
+
+  div #dos #clh-content .desc {
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  div #dos #clh-content .desc p {
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    color: #292929;
+    padding-bottom: 5px;
+  }
+
+  div #dos #clh-content #fin {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bolder;  
+  }
+
+  div #dos #clh-content #fin span {
+    color: #ff670a;
+  }
+
+  /* ---------- Tres ---------- */
+  div #tres #tres-cont1 {
+    width: 75%;
+  }
+
+  div #tres #tres-cont1 #tres-cont2 #tres1 {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+  }
+
+  div #tres #tres-cont1 #tres-cont2 #tres2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 40px 0px;
+  }
+
+  div #tres #tres-cont1 #tres-cont2 #tres2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #ff670a;
+  }
+
+  /* ---------- Footer ---------- */
+  footer #footer-logo {
+    width: 40%;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  footer #footer-logo img {
+    width: 90%;
+    height: auto;
+  }
+
+  footer #footer-uno {
+    width: 40%;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  footer  #footer-dos {
+    width: 20%;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  footer  #footer-dos li {
+    list-style: none;
+  }
+
+  footer #footer-dos i {
+    color: #949494;
+    padding-top: 10px;
+  }
+}

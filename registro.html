@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Librerias de estilos -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<title>Page Title</title>
+
+
+<style>
+    .input-group-text.primary {
+        color: rgb(255, 255, 255);
+        background-color: rgb(174, 83, 30);
+        border-color: rgb(174, 83, 30);
+    }
+
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        max-height: 100%;
+    }
+
+    .left {
+        float: left
+    }
+
+    .right {
+        float: right
+    }
+    
+    body { background: rgb(46, 54, 57) !important; color:rgb(255, 255, 255) !important} /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+
+
+
+</head>
+<body>
+
+<!-- Video del background -->
+
+<script>
+   
+</script>
+
+<video autoplay muted loop id="myVideo">
+    <source src="multimedia/DESK_DESC_1.mp4" type="video/mp4">
+</video>
+
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-6 col-sm-8 offset-sm-2">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <h2>Env&iacute;anos tu informaci&oacute;n</h2>
+        <p>Recuerda que &uacute;nicamente podemos negocias deudas mayores a $100,000 MN con bancos (Tarjetas de cr&eacute;dito, pr&eacute;stamos personales y pr&eacute;stamos de n&oacute;mina).</p>
+        
+        <br>
+        <br>
+        
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text  primary" style="width: 200%;" id="basic-addon1">Nombre Completo</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text primary"  style="width: 100%;" id="basic-addon1">Tel&eacute;fono &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text primary"  style="width: 100%;" id="basic-addon1">Correo electr&oacute;nico</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text primary"  style="width: 100%;" id="basic-addon1">C&oacute;digo postal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text primary"  style="width: 100%;" id="basic-addon1">¿Cu&aacute;nto debes?  &nbsp;&nbsp;&nbsp;</span>
+            </div>
+            <select class="form-control" id="sel1">
+                <option>--</option>
+                <option>100,000 - 250,000</option>
+                <option>250,000 - 450,000</option>
+                <option>450,000 o m&aacute;s</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text primary"  style="width: 100%;" id="basic-addon1">¿A qui&eacute;n le debes?</span>
+            </div>
+            <select class="form-control" id="sel1">
+                <option>--</option>
+                <option>BBVA</option>
+                <option>Banorte</option>
+                <option>Banamex/Citibanamex</option>
+                <option>AMEX</option>
+                <option>HSBC</option>
+                <option>Inbursa</option>
+                <option>Santander</option>
+                <option>Scotiabank</option>
+                <option>Invex</option>
+            </select>
+            <!-- <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1"> -->
+        </div>
+        <br>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Acepto la pol&iacute;tica de Aviso de privacidad y los T&eacute;rminos de servicio.</label>
+        </div>
+
+        <br>
+        <br>
+
+        <div align="center">
+            <button type="button" class="btn btn-light left" ng-click="Cancel()" aria-haspopup="true" aria-expanded="false" style="width:45%"><font size="6">Enviar</font>
+            </button>
+            <button type="button" class="btn btn-light right " ng-click="Proceed()" aria-haspopup="true" aria-expanded="false" style="width:45%"><font size="6">Reestablecer</font>
+            </button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
